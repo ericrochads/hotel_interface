@@ -1,0 +1,133 @@
+/* GENERAL */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 243, 174);
+    font-family: 'Golos Text', sans-serif, helvetica;
+}
+
+/* NAVBAR */
+
+.navbar-container{
+    width: 100%;
+    height: 60px;
+    padding: 0 15px;
+    background-image: linear-gradient(to right, rgb(238, 203, 108), rgb(241, 196, 72));
+    position: relative;
+    box-sizing: border-box;
+}
+
+#solaris-logo{
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav{
+    position: relative;
+}
+
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-items#helc{
+    left: 0;
+    position: absolute;
+    margin-left: 70px;
+}
+
+.navbar-items#log-cad{
+    right: 0;
+    margin-left:0 ;
+}
+
+.navbar-items li{
+    display: inline-block;
+    margin-inline: 30px;
+}
+
+.navbar-items li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-items li a:hover{
+    transition: .3s;
+    color: rgb(248, 243, 174);
+    
+}
+
+.navbar-items li a:hover{
+    transition: .1s;
+    border-bottom: 2px solid rgb(63, 60, 60);
+}
+
+/* HOME */
+
+/* BANNER + FORM */
+
+.main-banner{
+    background-image: url("Imagens/22.jpg");
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+}
+
+.form-estadia{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+#form-title{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(218, 212, 212);
+    background-color: rgb(214, 208, 208);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#form-content{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: aliceblue;
+    border: 1px solid rgb(218, 212, 212);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+form p{
+    margin-top:0;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.selhq-row{
+    display: flex;
+}
+
+.select-quartos{
+    float:right;
+}
+
+.date-row{
+    display: flex;
+}
+

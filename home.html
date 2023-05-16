@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/styles_solaris.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/solaris_logo.png" />
+
+
+    <title>Hotel Solari's</title>
+</head>
+
+<body>
+    <div class="container"> <!-- Engloba todo o site // Conteúdo -->
+
+        <div class="navbar-container"> <!-- NAVBAR -->
+            <nav>
+                <a href="home.html"><img src="Imagens/solaris_logo.png" id="solaris-logo"></a>
+                <ul class="navbar-items" id="helc">
+                    <li><a href="hoteis.html">Hotéis</li></a>
+                    <li><a href="eventos.html">Eventos</li></a>
+                    <li><a href="localizacoes.html">Localizações</li></a>
+                    <li><a href="contatos.html">Contatos</li></a>
+                </ul>
+                
+                <ul class="navbar-items" id="log-cad">
+                    <li><a href="login.html">Login</li></a>
+                    <li><a href="cadastro.html">Cadastro</li></a>
+                </ul>
+            </nav>
+        </div>
+
+        <!--------------------------------------------------------------------------------------------------->
+        
+        <main> <!-- Conteúdo principal do site // Parte central -->
+            <section class="main-banner"> <!-- Imagem de fundo do home + formulário de estadia -->
+                <div class="form-estadia">
+                    <div id="form-title">Estadia</div>
+                        <div id="form-content">
+                            <form>
+                                <div class="selhq-row">
+                                    <div class="select-hotel">
+                                        <p>Selecione o hotel:</p>
+                                        <select name="select-hotel" class="select-form">
+                                            <option disable selected value="0">Escolha um hotel</option>
+                                            <option>Solari's Leste</option>
+                                            <option>Solari's Oeste</option>
+                                            <option>Solari's Central</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="select-quartos">
+                                        <p>Quartos:</p>
+                                        <select name="select-quartos" class="select-form">
+                                            <option disable selected value="0">Quartos</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="date-row">
+                                    <p>Check-In:</p>
+                                    <input type="date" class="date-form">
+                                    
+                                    <p>Check-Out:</p>
+                                    <input type="date" class="date-form">
+                                    
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </section>
+            <!---------------------------------------------------------------------------------------------->
+
+            <section class="presentation-home"> <!-- Imagens e conteudo do home -->
+                <div id="section-content">
+                    <div class="content-img-text">
+                        <h1 class="titles-home">Quartos</h1>
+                            <div class="content-home"> Experimente os quartos</div>
+                                <div class="home-images img-quarto"></div>
+                    </div>
+
+
+                    <div class="content-img-text">
+                        <h1 class="titles-home">Restaurante</h1>
+                            <div class="content-home"> Experimente o restaurante</div>
+                                <div class="home-images img-restaurante"></div>
+                    </div>
+
+                    <div class="content-img-text">
+                        <h1 class="titles-home">Piscina</h1>
+                            <div class="content-home"> Experimente as piscinas</div>
+                                <div class="home-images img-piscina"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------------------------------------------------------------------------------------->
+
+        </main>
+
+        <footer class="footer-container">
+                <nav>
+                    <a href="home.html"><img id="solaris-logo-footer" src=""></a>
+                    <ul>
+                        <li><a class="footer-href" href="#"></a>Sobre nós</li>
+                        <li><a class="footer-href" href="#"></a>Ajuda</li>
+                        <li><a class="footer-href" href="#"></a>Garantia</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
